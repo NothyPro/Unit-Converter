@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unit Converter</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Unit Converter</h1>
+  <input id="userInput" type="number" placeholder="Enter number...">
+  <select id="unit">
+    <option value="milesToKm">Miles to Kilometers</option>
+    <option value="kmToMiles">Kilometers to Miles</option>
+    <option value="fToC">Fahrenheit to Celsius</option>
+      <option value="cToF">Celsius to Fahrenheit</option>
+  </select>
+  <button onclick="convert()">Convert</button>
+  <p>Result: <span id="resultElement">0</span></p>
+  <script src="js/script.js"></script>
+</body>
+</html>

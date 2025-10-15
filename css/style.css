@@ -1,0 +1,19 @@
+body {
+    background-color: #dbebff;
+    padding: 20px;
+  }
+  
+  h1 {
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+  }
+  
+  p {
+    background-color: #a8cfff;
+    color: #001938;
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+    padding: 5px 10px 20px 10px;
+  }
